@@ -1,0 +1,134 @@
+body {
+
+    background-color: rgb(186, 238, 250);
+    align-content: center;
+    display: flex;
+}
+
+#first {
+
+    flex-direction: column;
+}
+
+#outer-1 {
+
+    margin: 3%;
+    margin-right: 5%;
+    height: 490px;
+    width: 540px;
+    display: grid;
+    place-items: center;
+}
+
+#image {
+
+    margin: 2%;
+    height: 475px;
+    width: 420px;
+    border-radius: 6px;
+    box-shadow: 6.5px 1px 1px 7px;
+}
+
+#outer-2 {
+
+    margin: 3%;
+    align-content: center;
+    background-color: rgb(214, 237, 241);
+    box-shadow: 14px;
+    border-radius: 10px;
+    height: 490px;
+    width: 440px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46, 125, 143);
+    box-shadow: 14px;
+    border-radius: 6px;
+    height: 450px;
+    width: 400px;
+}
+
+#input-box {
+
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: 12%;
+    font-size: larger;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgb(199, 225, 230);
+    border-radius: 6px;
+    height: 40px;
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#calculation {
+
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgb(199, 225, 230);
+    border-radius: 6px;
+    height: 340px;
+    width: 370px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box1 {
+
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 3%;
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(18, 49, 56);
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    width: 70px;
+    font-weight: bold;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px 3px rgb(53, 99, 109);
+}
+
+.box1:active {
+
+    background-color: #96a6b1;
+    color: black;
+}
+
+#equal {
+
+    background-color: rgb(40, 148, 30);
+    box-shadow: 3px 3px 3px 3px rgb(46, 99, 41);
+}
+
+#equal:active {
+
+    background-color: #ccfad5;
+    color: black;
+}
+
+#ac {
+
+    background-color: rgb(221, 39, 39);
+    box-shadow: 3px 3px 3px 3px rgb(185, 113, 113);
+}
+
+#ac:active {
+
+    background-color: rgb(218, 110, 110);
+    color: black;
+}
